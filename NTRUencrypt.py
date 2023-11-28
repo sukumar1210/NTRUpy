@@ -1,5 +1,6 @@
 from sympy import symbols, invert, Poly, GF
-from NTRUutil import *
+from NTRUpy.NTRUutil import *
+# from NTRUutil import *
 import numpy as np
 
 class NTRUencrypt:

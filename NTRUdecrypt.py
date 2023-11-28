@@ -1,5 +1,6 @@
 from sympy import symbols, invert, poly, GF, Poly
-from NTRUutil import *
+from NTRUpy.NTRUutil import *
+# from NTRUutil import *
 import numpy as np
 
 
