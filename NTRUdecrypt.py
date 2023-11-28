@@ -136,7 +136,7 @@ class NTRUdecrypt:
         print("inside genh")
         x = symbols("x")
         self.h = np.array(Poly((Poly(self.p*self.fq,x).trunc(self.q)*Poly(self.g,x)).trunc(self.q)%Poly(self.I,x)).all_coeffs(), dtype=int)
-        print("h", arr2str(dec.h), len(dec.h), end="\n\n")
+        # print("h", arr2str(dec.h), len(dec.h), end="\n\n")
 
     # generate the keys
     def genKeys(self):

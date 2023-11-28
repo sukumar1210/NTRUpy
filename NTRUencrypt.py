@@ -60,7 +60,7 @@ class NTRUencrypt:
     def encryptString(self, M):
         if not self.hasKey:
             raise ValueError("No key is set")
-        M="Hello world"
+        # M="Hello world"
         bM = str2bit(M)
         bM = padArray(bM, len(bM) + (self.N - np.mod(len(bM), self.N)))
         self.Me=""
